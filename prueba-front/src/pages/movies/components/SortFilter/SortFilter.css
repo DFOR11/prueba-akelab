@@ -1,0 +1,76 @@
+.header__sort {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.sort-filter-container {
+  position: relative;
+}
+.sort__button {
+  height: 15px;
+  width: 15px;
+  padding: 0;
+  background-color: transparent;
+  background-image: url(../../../../assets/Arrow-Icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  outline: none;
+  border: none;
+  transform: rotate(90deg);
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.sort-filter {
+  position: absolute;
+  max-height: 250px;
+  min-width: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: auto;
+  right: -4px;
+  z-index: 3;
+  background-color: #efefef;
+  top: 47px;
+  border-radius: 10px 5px 10px 10px;
+  box-shadow: 2px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.sort-filter-container::before {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: -5px;
+  z-index: 3;
+  bottom: -15px;
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  border-bottom: 13px solid #efefef;
+}
+.option-title {
+  color: #3f3f3f;
+  font-weight: 800;
+  font-size: 0.9rem;
+  display: block;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+.sort-option {
+  display: block;
+  width: 100%;
+  padding: 10px 0px 10px 15px;
+  background: transparent;
+  color: #6d6e70;
+  cursor: pointer;
+}
+
+.sort-option.--active {
+  background-color: #bcbcbc;
+  border-left: 3px solid #000;
+}

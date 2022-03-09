@@ -1,0 +1,101 @@
+.header__filter-button {
+  width: 30px;
+  height: 34px;
+  padding: 0 24px;
+  background-color: transparent;
+  background-image: url(../../../../assets/Filter-Icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 22px;
+  outline: none;
+  border: none;
+  border-left: 1px solid #c4c4c4;
+  border-right: 1px solid #c4c4c4;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+.filter-container {
+  position: relative;
+}
+.filter {
+  position: absolute;
+  max-height: 250px;
+  min-width: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: auto;
+  right: 26px;
+  z-index: 2;
+  background-color: #efefef;
+  top: 47px;
+  border-radius: 10px 5px 10px 10px;
+  box-shadow: 2px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.filter-container::before {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 26px;
+  z-index: 3;
+  bottom: -15px;
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  border-bottom: 13px solid #efefef;
+}
+
+/* Filter checkbox */
+
+.control {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 8px 0px 8px 50px;
+  margin: 0px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: left;
+  background-color: transparent;
+  color: #6d6e70;
+}
+
+.control input {
+  display: none;
+}
+.control__indicator {
+  position: absolute;
+  top: 10px;
+  left: 17px;
+  height: 20px;
+  width: 20px;
+  background: transparent;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+  background: #ccc;
+}
+
+.control input:checked ~ .control__indicator {
+  background: #41a88b;
+  border: 1px solid transparent;
+}
+
+.control input:checked ~ .control__indicator:after {
+  display: block;
+}
+.control .control__indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+  left: 8px;
+  top: 4px;
+  width: 3px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,22 @@
+.movies-container {
+  padding: 18px;
+}
+
+.movies__title {
+  font-weight: 800;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.movies__header {
+  display: flex;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem;
+  margin: 4rem 0rem;
+  padding: 0;
+  list-style-type: none;
+}
