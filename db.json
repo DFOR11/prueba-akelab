@@ -1,0 +1,143 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstname": "jhonabc",
+      "lastname": "Smith",
+      "email": "john.smith@example.com",
+      "birthDate": "2017-02-17",
+      "profileImg": "https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg",
+      "address": {
+        "street": "Lindenstraße 89",
+        "city": "Freiburg im Breisgau",
+        "postalcode": "42030"
+      }
+    },
+    {
+      "id": 2,
+      "firstname": "José",
+      "lastname": "Pizarro",
+      "email": "josepizarro57@gmail.com",
+      "birthDate": "1975-03-23",
+      "profileImg": "https://cdn.pixabay.com/photo/2016/11/18/19/07/happy-1836445_960_720.jpg",
+      "address": {
+        "street": "Calle Joaquin Turina",
+        "city": "Madrid",
+        "country": "ES",
+        "postalcode": "28224"
+      }
+    },
+    {
+      "id": 3,
+      "firstname": "Christiane",
+      "lastname": "Schmidt",
+      "email": "Christiane123@yahoo.com",
+      "profileImg": "https://cdn.pixabay.com/photo/2016/12/19/21/36/woman-1919143_960_720.jpg",
+      "birthDate": "1995-03-03",
+      "address": {
+        "street": "Erdgeschoss/ Eingang Europaplatz",
+        "city": "Berlin",
+        "country": "DE",
+        "postalcode": "10557"
+      }
+    },
+    {
+      "id": 4,
+      "firstname": "Leanne ",
+      "lastname": "Graham",
+      "email": "lgraham@gmail.com",
+      "profileImg": "https://cdn.pixabay.com/photo/2016/06/06/17/05/woman-1439909_960_720.jpg",
+      "birthDate": "1999-11-13",
+      "address": {
+        "street": "20 Draycott Place",
+        "city": "London",
+        "country": "UK",
+        "postalcode": "533580"
+      }
+    },
+    {
+      "id": 5,
+      "firstname": "Clare",
+      "lastname": "Bauch",
+      "email": "bauch_cla12@gmail.com",
+      "profileImg": "https://cdn.pixabay.com/photo/2018/03/06/22/57/portrait-3204843_960_720.jpg",
+      "birthDate": "2000-01-07",
+      "address": {
+        "street": "20 Peel Street",
+        "city": "London",
+        "country": "UK",
+        "postalcode": "533420"
+      }
+    },
+    {
+      "id": 6,
+      "firstname": "Brian",
+      "lastname": "Johnson",
+      "email": "bjohnson2@outlook.com",
+      "profileImg": "https://cdn.pixabay.com/photo/2018/11/08/23/52/man-3803551_960_720.jpg",
+      "birthDate": "2002-05-21",
+      "address": {
+        "street": "2375 Pennsylvania Av. NW",
+        "city": "Washington DC",
+        "country": "US",
+        "postalcode": "20037"
+      }
+    },
+    {
+      "id": 7,
+      "firstname": "Patricia",
+      "lastname": "Lebsack",
+      "email": "lebsack42@gmail.com",
+      "profileImg": "https://cdn.pixabay.com/photo/2017/08/01/08/29/woman-2563491_960_720.jpg",
+      "birthDate": "2000-05-21",
+      "address": {
+        "street": "Paseo Direccion, 350",
+        "city": "Madrid",
+        "country": "ES",
+        "postalcode": "28029"
+      }
+    },
+    {
+      "id": 8,
+      "firstname": "Chelsey",
+      "lastname": "Dietrich",
+      "email": "chelsey_d21@gmail.com",
+      "profileImg": "https://cdn.pixabay.com/photo/2016/11/29/03/35/girl-1867092_960_720.jpg",
+      "birthDate": "2003-07-11",
+      "address": {
+        "street": "36 Quenn anne's Gate",
+        "city": "London",
+        "country": "UK",
+        "postalcode": "533420"
+      }
+    },
+    {
+      "id": 9,
+      "firstname": "Dennis",
+      "lastname": "Williams",
+      "email": "dwilliams65@gmail.com",
+      "profileImg": "https://media.istockphoto.com/photos/african-american-man-with-afro-hair-wearing-hoodie-and-standing-over-picture-id1272410886?k=20&m=1272410886&s=612x612&w=0&h=NjktpUMWzsXYuMtdfDcBtzrG7irJ1wq6S45F-syl4xc=",
+      "birthDate": "2001-08-13",
+      "address": {
+        "street": "180 North Michigan Ave",
+        "city": "Chicago",
+        "country": "US",
+        "postalcode": "60611"
+      }
+    },
+    {
+      "id": 10,
+      "firstname": "Paco",
+      "lastname": "Diaz",
+      "email": "paco_diaz412@gmail.com",
+      "profileImg": "https://us.123rf.com/450wm/samwordley/samwordley1906/samwordley190600324/124934101-hombre-de-moda-con-estilo-atractivo-joven-de-unos-20-a%C3%B1os-en-ropa-casual-sin-afeitar-y-cabello-oscur.jpg?ver=6",
+      "birthDate": "1988-08-13",
+      "address": {
+        "street": "Calle Doctor Fleming",
+        "city": "Barcelona",
+        "country": "ES",
+        "postalcode": "08280"
+      }
+    }
+  ]
+}
